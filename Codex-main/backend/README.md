@@ -7,7 +7,6 @@ The API uses SQL Server for persistence. Follow the steps below to connect the a
 1. Open SQL Server Management Studio and connect to your SQL instance.
 2. Create an empty database, for example `SATORP_TraineeSystem`.
 3. Run [`sql/schema.sql`](sql/schema.sql) in a query window against that database to create all required tables.
-4. (Optional) Run [`sql/seed.sql`](sql/seed.sql) to load the sample data that matches the demo screens in the client.
 
 ## 2. Configure connection variables
 
